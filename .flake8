@@ -1,0 +1,9 @@
+[flake8]
+ignore = E501, E203, W503
+max-line-length = 120
+exclude =
+    .git,
+    __pycache__,
+    .conda,
+    envs,
+    Tool_Scripts/old_versions/*

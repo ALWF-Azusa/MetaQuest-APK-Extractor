@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "啟動 APK 提取器",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Tool_Scripts/main_gui.py",
+            "cwd": "${workspaceFolder}", // 確保程式執行時以根目錄為基準，這樣才能讀到 .env
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
