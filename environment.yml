@@ -1,0 +1,12 @@
+name: quest_extractor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - adb  # 部分 channel 提供原生 adb 工具
+  - pip:
+    - customtkinter
+    - packaging
+    - # 加入其他你在 main_gui.py 用到的套件
